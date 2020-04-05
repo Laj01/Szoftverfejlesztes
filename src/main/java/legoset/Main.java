@@ -2,9 +2,7 @@ package legoset;
 
 import jaxb.JAXBHelper;
 
-import javax.xml.bind.JAXBException;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.time.Year;
 import java.util.ArrayList;
@@ -14,7 +12,7 @@ import java.util.Set;
 
 public class Main {
 
-    public static void main(String[] args) throws FileNotFoundException, JAXBException {
+    public static void main(String[] args) throws Exception {
 
         LegoSet legoset = new LegoSet();
         legoset.setName("Imperial TIE Fighter");
