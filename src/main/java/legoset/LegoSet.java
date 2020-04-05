@@ -16,6 +16,7 @@ public class LegoSet {
     @XmlAttribute
     private String number;
     private String name;
+    private String theme;
     private String subtheme;
 
     @XmlJavaTypeAdapter(YearAdapter.class)
